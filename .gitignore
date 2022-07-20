@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin
+_bin
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+coverage.txt
+
+# editor and IDE paraphernalia
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+_.yaml
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Vscode files
+.vscode
+
+# Builded files
+source-controller

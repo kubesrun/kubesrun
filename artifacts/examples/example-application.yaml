@@ -1,0 +1,7 @@
+apiVersion: source.kubesrun.top/v1alpha1
+kind: Application
+metadata:
+  name: example-application
+spec:
+  deploymentName: example-application
+  replicas: 1
